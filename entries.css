@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .entries-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .entry {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+  }
+  
+  .entry-name {
+    font-size: 18px;
+    text-decoration: none;
+    
+  }
+  
+  .entry-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+ 
+  
+
+  

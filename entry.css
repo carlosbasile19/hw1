@@ -1,0 +1,56 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    color: darkviolet;
+    text-align: center;
+  }
+  
+  .entry-content {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  
+  form {
+    margin-bottom: 30px;
+  }
+  
+  input[type="hidden"] {
+    display: none;
+  }
+
+  .favorite-button {
+    background-color: darkgoldenrod;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+  
+  .delete-button-entry {
+    background-color: darkred;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .buttons-container button {
+    font-size: 16px;
+  }
+  
+  

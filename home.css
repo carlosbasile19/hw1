@@ -1,0 +1,43 @@
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.diaries-container {
+    margin-bottom: 20px;
+}
+
+.diary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.diary-header-row {
+    font-weight: bold;
+}
+
+.diary-name {
+    flex: 1;
+}
+
+.diary-actions {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    .diary-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .diary-actions {
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+}

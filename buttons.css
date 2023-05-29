@@ -1,0 +1,73 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+ button {
+    background-color: darkviolet;
+    color: #fff;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .go-back-home {
+    background-color: darkviolet;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .modify-button {
+    background-color: darkorchid;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+  
+  .favorite-button {
+    background-color: darkgoldenrod;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+  
+  .delete-button-entry {
+    background-color: darkred;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+
+  .delete-button-account {
+    background-color: darkred;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+  
+  
+  .add-entry-button {
+
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+  
+button:hover {
+    background-color: #555;
+}
